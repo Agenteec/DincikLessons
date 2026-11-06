@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Заметки преподавателя с ответами — только локально
+**/TEACHER.md

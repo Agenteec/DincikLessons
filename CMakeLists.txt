@@ -14,3 +14,6 @@ project ("DincikLessons")
 # Включите подпроекты.
 add_subdirectory ("DincikLessons")
 add_subdirectory ("Lesson2_Aquarium")
+add_subdirectory ("Lesson3_Memory")
+add_subdirectory ("Lesson4_Physics")
+add_subdirectory ("Lesson5_Life")
