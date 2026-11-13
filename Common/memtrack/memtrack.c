@@ -48,6 +48,7 @@ void* mt_malloc(size_t n)
     g_tag_blocks[slot(h->tag)]++;
     g_tag_bytes[slot(h->tag)] += n;
     record(+1, n, h + 1);
+    memset(h + 1, 0xCD, n);   // как отладочная куча MSVC: свежий malloc — мусор 0xCD, а не нули
     return h + 1;
 }
 
